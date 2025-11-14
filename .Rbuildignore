@@ -1,3 +1,7 @@
-^scDEcrypter\.Rproj$
+^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^\.github$
 ^LICENSE\.md$
+^CODE_OF_CONDUCT\.md$
+^data-raw$

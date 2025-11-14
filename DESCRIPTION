@@ -1,10 +1,18 @@
 Package: scDEcrypter
 Title: An R package uses limited information to predict virus cell infection, and does differentially expressed gene expression analysis.
 Version: 0.1.0
-Authors@R: 
-    person("Luer", "Zhong", , "luerzhong@ufl.edu", role = c("aut", "cre"))
+Authors@R: c(person(given = "Luer", family = "Zhong", email = "luerzhong@ufl.edu", role = c("aut", "cre")), 
+             person(given = c("Jack", "R."), family = "Leary", email = "j.leary@ufl.edu", role = c("aut"), comment = c(ORCID = "0009-0004-8821-3269")), 
+             person(given = "Rhonda", family = "Bacher", email = "rbacher@ufl.edu", role = c("fnd"), comment = c(ORCID = "0000-0001-5787-476X")))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
+Depends:
+  R (>= 4.5.0)
+Suggests:
+  testthat (>= 3.0.0)
+URL: https://github.com/jr-leary7/scDEcrypter
+BugReports: https://github.com/jr-leary7/scDEcrypter/issues
+Config/testthat/edition: 3

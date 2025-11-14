@@ -1,0 +1,45 @@
+---
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
+    fig_width: 6
+    fig_height: 4
+    dev: png
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, 
+                      collapse = TRUE,
+                      comment = "#>",
+                      fig.path = "man/figures/README-",
+                      out.width = "100%", 
+                      fig.retina = TRUE,
+                      fig.width = 6,
+                      fig.height = 4)
+```
+
+# `scDEcrypter`
+
+<!-- badges: start -->
+[![Language](https://img.shields.io/badge/-R?logo=R&logoColor=white)](https://github.com/topics/r)
+![last commit](https://img.shields.io/github/last-commit/jr-leary7/scDEcrypter/main?color=darkgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<!-- badges: end -->
+
+# Installation
+
+You can install the most recent version of `scDEcrypter` using:
+
+```{r, eval=FALSE}
+remotes::install_github("jr-leary7/scDEcrypter")
+```
+
+# Usage 
+
+# Contact information
+
+# References 
